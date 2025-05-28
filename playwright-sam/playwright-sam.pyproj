@@ -23,6 +23,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="config.py" />
     <Compile Include="run-test\testProfileEdit.py" />
     <Compile Include="run-test\testTasksCreate.py" />
     <Compile Include="tests\createTask_spec.py" />
